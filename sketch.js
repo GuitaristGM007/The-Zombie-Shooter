@@ -17,24 +17,24 @@ localStorage = ["highestScore"];
 localStorage[0] = 0;
 
 function preload(){
-gameFont = loadFont("fonts/spookyHill.otf");
-bgImg = loadImage("assets/bg.jpeg");
-playIconImage = loadImage("assets/playButton.png");
-restartIconImage = loadImage("assets/restartButton.png");
-waitingPlayerImage = loadImage("assets/shooter_2.png");
-shooterAnimation = loadAnimation("assets/shooter_2.png", "assets/shooter_1.png");
-shooter_shooting = loadImage("assets/shooter_3.png");
-deadPlayerImage = loadImage("assets/shooter_1.png");
-life_3Image = loadImage("assets/heart_3.png");
-life_2Image = loadImage("assets/heart_2.png");
-life_1Image = loadImage("assets/heart_1.png");
-bulletImage = loadImage("assets/bullet.png");
-enemyBulletImage = loadImage("assets/enemyBullet.png");
-zombiesImage = loadImage("assets/zombie.gif");
-shootSound = loadSound("assets/shoot.mp3");
-killSound = loadSound("assets/kill.mp3");
-failSound = loadSound("assets/fail.mp3");
-endSound = loadSound("assets/end.mp3");
+gameFont = loadFont("spookyHill.otf");
+bgImg = loadImage("bg.jpeg");
+playIconImage = loadImage("playButton.png");
+restartIconImage = loadImage("restartButton.png");
+waitingPlayerImage = loadImage("shooter_2.png");
+shooterAnimation = loadAnimation("shooter_2.png", "assets/shooter_1.png");
+shooter_shooting = loadImage("shooter_3.png");
+deadPlayerImage = loadImage("shooter_1.png");
+life_3Image = loadImage("heart_3.png");
+life_2Image = loadImage("heart_2.png");
+life_1Image = loadImage("heart_1.png");
+bulletImage = loadImage("bullet.png");
+enemyBulletImage = loadImage("enemyBullet.png");
+zombiesImage = loadImage("zombie.gif");
+shootSound = loadSound("shoot.mp3");
+killSound = loadSound("kill.mp3");
+failSound = loadSound("fail.mp3");
+endSound = loadSound("end.mp3");
 }
 
 function setup() {
